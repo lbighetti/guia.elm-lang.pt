@@ -1,7 +1,7 @@
 <!--
 # Summary
 -->
-# 目次
+# Resumo
 
 <!--
 * [Introduction](README.md)
@@ -43,8 +43,8 @@
    * [Types as Bits](appendix/types_as_bits.md)
    * [Function Types](appendix/function_types.md)
 -->
-* [翻訳について](about_translation.md)
-* [はじめに](README.md)
+* [Sobre esta Tradução](about_translation.md)
+* [Introdução](README.md)
 * [インストール](install.md)
 * [言語の基礎](core_language.md)
 * [The Elm Architecture](architecture/README.md)

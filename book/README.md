@@ -1,12 +1,12 @@
 <!--
 # An Introduction to Elm
 -->
-# Elm について (はじめに)
+# Introdução ao Elm
 
 <!--
 **Elm is a functional language that compiles to JavaScript.** It competes with projects like React as a tool for creating websites and web apps. Elm has a very strong emphasis on simplicity, ease-of-use, and quality tooling.
 -->
-**Elm は JavaScript にコンパイルできる関数型プログラミング言語です。** ウェブサイトやウェブアプリケーションを作るツールという面では React のようなプロジェクトだと言えます。 Elm はシンプルであること、簡単に使えること、高品質であることを大切にしています。
+**Elm é uma linguagem funcional que compila para Javascript.** Ele compete com projetos como React para criação de páginas e aplicações web. Elm possui uma forte ênfase em simplicidade, facilidade de uso e qualidade de ferramentas.
 
 <!--
 This guide will:
@@ -15,39 +15,38 @@ This guide will:
   - Show you how to make interactive apps with *The Elm Architecture*.
   - Emphasize principles and patterns that generalize to programming in any language.
 -->
-このガイドは以下のことを目指します。
+Este guia irá:
 
-  - Elm によるプログラミングの基礎を身に着けてもらうこと
-  - *The Elm Architecture* を使ってインタラクティブなアプリケーションを作る方法をお見せすること
-  - あらゆる言語で使える法則やパターンを重視すること
+  - Ensinar os fundamentos para programar em Elm
+  - Mostrar como fazer aplicações interativas  com _A Arquitetura Elm_ (em inglês, *The Elm Architecture*)
+  - Enfatizar princípios e padrões que podem ser generalizados para programação em qualquer linguagem.
 
 <!--
 By the end I hope you will not only be able to create great web apps in Elm, but also understand the core ideas and patterns that make Elm nice to use.
 -->
-最終的にはあなたには Elm を使って素晴らしいウェブアプリをただ作れるようになるだけでなく、Elm をうまく使えるようになるための核となるアイディアやパターンを理解してもらえればと思います。
+No final você terá a capacidade de não apenas criar boas aplicações web em Elm, mas também entender as idéias e padrões principais que fazem o Elm ser bom de se utilizar.
 
 <!--
 If you are on the fence, I can safely guarantee that if you give Elm a shot and actually make a project in it, you will end up writing better JavaScript and React code. The ideas transfer pretty easily!
 -->
-Elm に対して様子見の立場である方も、Elm をちょっと試してみて実際に何かプロジェクトで使ってみると JavaScript や React のコードがいままでよりもうまく書けるようになっているはずです。 Elm で得られた知見はいろんなところで簡単に役立てることができます。
+
+Se você está em cima do muro, dê uma chance e utilize Elm num projeto. É muito possível que depois disso você acabe escrevendo um código  melhor em Javascript e React. As idéias do que você vai aprender são facilmente transferíveis!
 
 <!--
 ## A Quick Sample
 -->
 
-## Elm を知るためのサンプルコード
+## Uma Pequena Demonstração
 
 <!--
 Of course *I* think Elm is good, so look for yourself.
 -->
-もちろんこのガイドの原著者である Evan は Elm の作者でもあるので、Elm を素晴らしいものだと信じていますが、読者の皆様にも同じように感じてほしいと思っています。
-そのために簡単な Elm のプログラムをお見せします。
+Claro, o Evan, criador original deste guia e também criador do Elm acha o Elm maravilhoso! Nós também achamos isso, e esperamos que eventualmente vocês leitores também achem! Para isso, a seguir iniciaremos vendo um programa simples em Elm.
 
 <!--
 Here is [a simple counter](https://ellie-app.com/new). If you look at the code, it just lets you increment and decrement the counter:
 -->
-以下のコードは[カウンターのサンプル](https://ellie-app.com/new)です。
-このコードは、カウンターをインクリメント(+1)したりデクリメント(-1)したりするものです。
+Aqui está [um simples contador](https://ellie-app.com/new). Se você olhar o código, ele permite que você incremente ou decremente o contador:
 
 ```elm
 import Browser
@@ -78,14 +77,12 @@ view model =
 <!--
 Notice that the `update` and `view` are entirely decoupled. You describe your HTML in a declarative way and Elm takes care of messing with the DOM.
 -->
-`update` と `view` が完全に分離されていることにお気づきになることでしょう。
-また、HTML を宣言的に書くだけで、Elm が DOM に関するめんどうごとを全部引き受けてくれます。
-
+Note que o `update` e a `view` são completamente desacoplados. Você escreve seu HTML de uma forma declarativa e o Elm cuida de mexer no DOM.
 
 <!--
 ## Why a *functional* language?
 -->
-## なぜ関数型を採用しているか
+## Porquê uma linguagem funcional?
 
 <!--
 Forget what you have heard about functional programming. Fancy words, weird ideas, bad tooling. Barf. Elm is about:
