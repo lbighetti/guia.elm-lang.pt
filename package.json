@@ -8,24 +8,23 @@
     "gitbook-plugin-bulk-redirect": "^0.2.1",
     "gitbook-plugin-meta": "^0.1.12",
     "gitbook-plugin-youtube": "^1.1.0",
-    "pretranslate": "file:tool/pretranslate",
-    "rimraf": "^2.6.2"
+    "pretranslate": "file:tool/pretranslate"
   },
   "devDependencies": {},
   "scripts": {
     "install": "gitbook install",
     "start": "gitbook serve",
-    "build": "rimraf _book && rimraf docs && gitbook build && mv _book docs && rimraf docs/**/*.md",
+    "build": "gitbook build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/elm-jp/guide.git"
+    "url": "git+https://github.com/lbighetti/guide.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/elm-jp/guide/issues"
+    "url": "https://github.com/lbighetti/guide/issues"
   },
-  "homepage": "https://github.com/elm-jp/guide#readme"
+  "homepage": "https://github.com/lbighetti/guide#readme"
 }
