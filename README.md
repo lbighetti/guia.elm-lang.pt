@@ -1,47 +1,46 @@
-# Japanese translation of guide.elm-lang.org
+# Tradução para Português do guide.elm-lang.org
 
-[Original version](https://github.com/evancz/guide.elm-lang.org/)
+[Versão Original](https://github.com/evancz/guide.elm-lang.org/)
 
-guide.elm-lang.org 日本語化プロジェクト
+Projeto de tradução para língua portuguesa do guia de introdução a Elm guide.elm-lang.org 
 
-たまに大元のプロジェクトの変更をマージします。
+Às vezes, mesclamos as alterações do projeto original.
 
-## 進捗
+## Progresso
 
-現状は原文が多く残っているため、全ページに `<meta name="robots" content="noindex">` を入れることで、
-検索エンジンからコピーコンテンツと見なされるのを防いでいます。
+Atualmente existem muitos textos originais, então incluindo `<meta name =" robots "content =" noindex ">` em todas as páginas,
+Isso impede que seja considerado como conteúdo de cópia dos mecanismos de pesquisa.
 
-## 翻訳に貢献する
+## Contribuir para a tradução
 
-え？ 貢献してくれるんですか？！
-It's super helpful!
+O que? Contribuir?!
+É super útil!
 
-### レビュアーとして貢献する
+### Contribuindo como revisor
 
-他の方が翻訳した内容をレビューしていただける方も大募集です！
-ご都合の良いときにマージ前のプルリクに対して「もしかしたらここはこうしたらもっとわかりやすくなるかも！」みたいなコメントをつけていただくだけです。
-翻訳作業もレビュアーとしての参加もとてもとてもありがたいです！
+Também estamos procurando pessoas que possam revisar o conteúdo traduzido por outras pessoas!
+O trabalho de tradução e participação como revisores são muito apreciados!
 
-### 翻訳のやり方
+### Como traduzir
 
-`./book` 以下のファイルの英語の原文をコメントアウトして、その下に日本語を記入していきます。
-[サンプル](https://github.com/elm-jp/guide/pull/1)
+`./book` Comente a sentença original em inglês e na linha seguinte arquivo e preencha o trecho em português abaixo dela.
+[Exemplo] (https://github.com/elm-jp/guide/pull/1)
 
 ```bash
 $ npx pretranslate ./book/your_file_to_translate
 ```
 
-を実行することで、自動的に対象ファイルをパラグラフごとにコメントアウトし、さらに `./book/about_translation.md` の対訳表にしたがって文中に出てくる用語の標準的な対訳を付記してくれます。
+Comente o arquivo de destino automaticamente para cada parágrafo, executando-o automaticamente e, adicionalmente, acrescente um padrão bilingue do termo que aparece na sentença de acordo com a tabela bilíngüe `./Book/about_translation.md`.
 
-対訳表自体は手動で更新が必要です。重要そうな単語を訳した際に都度対訳表に追加してください。
+A própria tabela bilíngüe precisa ser atualizada manualmente. Por favor, adicione-o à tabela de tradução sempre que traduzir palavras importantes.
 
-### 翻訳しようと決めたら
+### Depois de decidir traduzir
 
-せっかく翻訳していただいたのに、実は同時に他の人が同じところを翻訳していて先にPRを出されちゃったらすごくもったいないですよね？
-それを防ぐためにまず対応する issue を探して「これを担当します」とコメントするか、権限がある方は自分を assign してください。
-他の人が「お、これは作業中だな」と気づくのでオススメです！
+Na verdade, eu traduzi o mesmo lugar ao mesmo tempo, mas ao mesmo tempo é realmente um desperdício se eu recebo PR à sua frente?
+Para evitar várias pessoas trabalhando no mesmo trecho do guia, primeiro procure o problema correspondente e comente "Vou traduzir este arquivo" ou se você tiver a permissão, por favor, atribua a o issue a si mesmo.
+É recomendado porque outras pessoas notam que o projeto está andando: "Ah, isso está progredindo!".
 
-また、こちらは任意ですが
+Além disso, embora seja opcional, você pode criar um pull request e ir atualizando com novos commits conforme progride. Uma forma de começar é com um commit vazio:
 
 ```bash
 $ git checkout -b ${your_branch_name}
@@ -49,19 +48,18 @@ $ git commit --allow-empty -m 'Empty commit'
 $ git push origin ${your_branch_name}
 ```
 
-のように空のコミットでブランチをプッシュして、「[WIP] interop/flags.md」 みたいなタイトルのPRを作っても良いでしょう。
+Você pode começar o nome do PR com `[WIP]` (work in progress) para sinalizar que ainda não está completo, por exemplo:  `[WIP] interop / flags.md`.
 
-## ローカル環境で確認する
+## Rodando localmente
 
-まず下記のコマンドで依存するプログラムをインストールします。
-(`yarn` はもうオワコンやーん)
+Para instalar (`yarn` também funciona):
 
 ```bash
 $ npm i
 $ npm run install
 ```
 
-下記のコマンドで開発サーバーが立ち上がります。
+Para iniciar o servidor de desenvolvimento:
 
 ```bash
 $ npm start
@@ -71,11 +69,9 @@ Starting server ...
 Serving book on http://localhost:4000
 ```
 
-`http://localhost:4000` にアクセスすることで表示の確認ができます。
+Acesse em `http://localhost:4000`
 
-## 本番環境へのデプロイ
-
-masterへのコミット権限がある人がやってください。
+## Implantar no ambiente de produção
 
 ```bash
 $ git checkout master

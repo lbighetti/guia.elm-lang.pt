@@ -6,7 +6,7 @@
 <!--
 **Elm is a functional language that compiles to JavaScript.** It competes with projects like React as a tool for creating websites and web apps. Elm has a very strong emphasis on simplicity, ease-of-use, and quality tooling.
 -->
-**Elm é uma linguagem funcional que compila para Javascript.** Ele compete com projetos como React para criação de páginas e aplicações web. Elm possui uma forte ênfase em simplicidade, facilidade de uso e qualidade de ferramentas.
+**Elm é uma linguagem funcional que compila para Javascript.** Ele compete com projetos como o  React para criação de páginas e aplicações web. Elm possui uma forte ênfase em simplicidade, facilidade de uso e qualidade de ferramentas.
 
 <!--
 This guide will:
@@ -29,7 +29,6 @@ No final você terá a capacidade de não apenas criar boas aplicações web em 
 <!--
 If you are on the fence, I can safely guarantee that if you give Elm a shot and actually make a project in it, you will end up writing better JavaScript and React code. The ideas transfer pretty easily!
 -->
-
 Se você está em cima do muro, dê uma chance e utilize Elm num projeto. É muito possível que depois disso você acabe escrevendo um código  melhor em Javascript e React. As idéias do que você vai aprender são facilmente transferíveis!
 
 <!--
@@ -41,7 +40,7 @@ Se você está em cima do muro, dê uma chance e utilize Elm num projeto. É mui
 <!--
 Of course *I* think Elm is good, so look for yourself.
 -->
-Claro, o Evan, criador original deste guia e também criador do Elm acha o Elm maravilhoso! Nós também achamos isso, e esperamos que eventualmente vocês leitores também achem! Para isso, a seguir iniciaremos vendo um programa simples em Elm.
+Claro, o Evan, criador original deste guia e também criador do Elm acha o Elm maravilhoso! Nós também achamos, e esperamos que vocês leitores também achem! Para isso, a seguir iniciaremos vendo um programa simples em Elm.
 
 <!--
 Here is [a simple counter](https://ellie-app.com/new). If you look at the code, it just lets you increment and decrement the counter:
