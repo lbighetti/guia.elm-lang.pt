@@ -36,7 +36,6 @@ A própria tabela bilíngüe precisa ser atualizada manualmente. Por favor, adic
 
 ### Depois de decidir traduzir
 
-Na verdade, eu traduzi o mesmo lugar ao mesmo tempo, mas ao mesmo tempo é realmente um desperdício se eu recebo PR à sua frente?
 Para evitar várias pessoas trabalhando no mesmo trecho do guia, primeiro procure o problema correspondente e comente "Vou traduzir este arquivo" ou se você tiver a permissão, por favor, atribua a o issue a si mesmo.
 É recomendado porque outras pessoas notam que o projeto está andando: "Ah, isso está progredindo!".
 

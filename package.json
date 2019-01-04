@@ -1,7 +1,7 @@
 {
   "name": "guide",
   "version": "1.0.0",
-  "description": "Japanese version of guide.elm-lang.org",
+  "description": "Portuguese version of guide.elm-lang.org",
   "main": "index.js",
   "dependencies": {
     "gitbook-cli": "^2.3.2",

@@ -91,29 +91,22 @@ Forget what you have heard about functional programming. Fancy words, weird idea
   - Well-architected code that *stays* well-architected as your app grows.
   - Automatically enforced semantic versioning for all Elm packages.
 -->
-まず「関数型プログラミング」について今までに聞いた話をすべて忘れてください。
-なんだかよくわからない用語を使ったり、今まで見たことないような特殊な考え方だったり、実際にアプリケーションを作るのには向いていなかったり...
-反吐が出ますね。
+Esqueça o que você já escutou sobre programação funcional. Palavras extravagantes, idéias estranhas, ferramentas ruins. Bleh. Elm é sobre:
 
-Elm はもっと実用的な以下のものを実現するために手段として関数型の考え方を使っているだけです。
-
-  - 実用上ランタイムエラーがでないし、`null`もないし、`undefined`が関数だなんて話はありえません
-  - とてもわかりやすい親切なエラーメッセージによってより素早くあなたのコードに機能を追加できます
-  - コードの規模が大きくなっても全体の設計が壊れることがありません
-  - すべてのElmパッケージにおいて、決められたルールに則って自動的にバージョン番号が付与されています
+  - Não há erros em tempo de execução. Não há `null`. Não há `undefined is not a function`.
+  - Mensagens de erro amigáveis que ajudam você a implementar funcionalidades mais rapidamente.
+  - Código bem arquitetado que *permanece* bem arquitetado conforme seu aplicativo cresce.
+  - Versão semântica automaticamente aplicada para todos os pacotes Elm.
 
 <!--
 No combination of JS libraries can ever give you this, yet it is all free and easy in Elm. Now these nice things are *only* possible because Elm builds upon 40+ years of work on typed functional languages. So Elm is a functional language because the practical benefits are worth the couple hours you'll spend reading this guide.
 -->
-JSをそのまま使ったらどんなライブラリを使って工夫してもこれらを実現することはできませんが、ElmならJSという言語の枠に縛られずに簡単に実現できます。
-こんな素晴らしいことが可能になるのは、Elmが「静的型付関数型言語」という40年以上の歴史を持つ研究成果を活用しているからにほかなりません。
-そのためElmにとって、関数型というのは目的ではなく手段であり、こういった現実的なメリットを得るという目的のために関数型言語を採用しているに過ぎません。
-もちろん関数型言語という少し見慣れないパラダイムを使っているElmを学ぶには時間が少しかかりますが、このガイドを読むのに使うたった数時間の投資に十分見合うだけの価値をもたらしてくれます。
+Nenhuma combinação de bibliotecas JS pode lhe proporcionar isso, mas é tudo gratuito e fácil em Elm. Agora, essas coisas boas são possíveis *somente* porque Elm se baseia em mais de 40 anos de trabalho de linguagens funcionais tipadas. Então Elm é uma linguagem funcional porque os benefícios práticos valem as horas que você vai gastar lendo este guia.
 
 <!--
 I have put a huge emphasis on making Elm easy to learn and use, so all I ask is that you give Elm a shot and see what you think. I hope you will be pleasantly surprised!
 -->
-作者のEvanはElmを簡単に学んで使いはじめられるように多大な注力をしているので、Elmを少し試してみてぜひあなたの感想を教えてください。
-(訳注: elm-jpでは日本語でElmについてやりとりできるdiscordを用意していますので、ぜひ[招待リンク](https://discordapp.com/invite/m9Ew6fR)から参加して感想をお聞かせください)
+Como o autor Evan está fazendo um grande esforço para você aprender facilmente Elm e começar a usá-lo, por favor, faça um teste com Elm e deixe-nos saber suas impressões.
+(Em português, nós temos o grupo de telegram [Elm Brasil](https://t.me/elmbrasil), junte-se a nós e conte-nos qual a sua impressão da linguagem).
 
-Elmによって楽しく新鮮な感動を覚えていただけると幸いです。
+Espero que Elm te surpreenda positivamente!
