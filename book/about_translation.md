@@ -55,7 +55,7 @@ Termos técnicos são mais complexos de traduzir. Para mantermos um vocabulário
 | type annotation             | a ser preenchido |
 | tuple                       | tupla |
 | record                      | a ser preenchido |
-| anonymous function          | a ser preenchido |
+| anonymous function          | função anônima |
 | keyword                     | a ser preenchido |
 | structural typing           | a ser preenchido |
 | constrained type variable   | a ser preenchido |
