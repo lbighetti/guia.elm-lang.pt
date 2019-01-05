@@ -81,7 +81,7 @@ Note que o `update` e a `view` são completamente desacoplados. Você escreve se
 <!--
 ## Why a *functional* language?
 -->
-## Porquê uma linguagem funcional?
+## Por que uma linguagem funcional?
 
 <!--
 Forget what you have heard about functional programming. Fancy words, weird ideas, bad tooling. Barf. Elm is about:
