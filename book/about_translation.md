@@ -1,6 +1,6 @@
 # Sobre este tradução
 
-Com base no conteúdo do Guia Oficial do Elm (https://guide.elm-lang.org/), esta tradução está sendo feita traduzida por membros da [comunidade Elm Brasil](https://t.me/elmbrasil).
+Com base no conteúdo do Guia Oficial do Elm (https://guide.elm-lang.org/), esta tradução está sendo feita por membros da [comunidade Elm Brasil](https://t.me/elmbrasil).
 
 Devido à natureza do conteúdo introdutório, esta tradução visa ter frases naturais e fáceis de entender em português, ao invés de ser uma tradução estrita do texto original.
 
