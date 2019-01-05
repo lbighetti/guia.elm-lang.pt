@@ -91,7 +91,7 @@ Forget what you have heard about functional programming. Fancy words, weird idea
   - Well-architected code that *stays* well-architected as your app grows.
   - Automatically enforced semantic versioning for all Elm packages.
 -->
-Esqueça o que você já escutou sobre programação funcional. Palavras extravagantes, idéias estranhas, ferramentas ruins. Bleh. Elm é sobre:
+Esqueça o que você já escutou sobre programação funcional. Palavras extravagantes, ideias estranhas, ferramentas ruins. Bleh. Elm é sobre:
 
   - Não há erros em tempo de execução. Não há `null`. Não há `undefined is not a function`.
   - Mensagens de erro amigáveis que ajudam você a implementar funcionalidades mais rapidamente.
