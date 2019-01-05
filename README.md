@@ -23,7 +23,7 @@ O trabalho de tradução e participação como revisores são muito apreciados!
 
 ### Como traduzir
 
-`./book` Comente a sentença original em inglês e na linha seguinte arquivo e preencha o trecho em português abaixo dela.
+`./book` Comente a sentença original em inglês e, na linha seguinte do arquivo, preencha o trecho em português.
 [Exemplo] (https://github.com/elm-jp/guide/pull/1)
 
 ```bash
