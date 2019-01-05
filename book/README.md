@@ -45,7 +45,7 @@ Claro, o Evan, criador original deste guia e também criador do Elm acha o Elm m
 <!--
 Here is [a simple counter](https://ellie-app.com/new). If you look at the code, it just lets you increment and decrement the counter:
 -->
-Aqui está [um simples contador](https://ellie-app.com/new). Se você olhar o código, ele permite que você incremente ou decremente o contador:
+Aqui está [um simples contador](https://ellie-app.com/new). Se você olhar o código, verá que ele permite que você incremente ou decremente o contador:
 
 ```elm
 import Browser
