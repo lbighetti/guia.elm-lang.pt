@@ -106,7 +106,7 @@ Nenhuma combinação de bibliotecas JS pode lhe proporcionar isso, mas é tudo g
 <!--
 I have put a huge emphasis on making Elm easy to learn and use, so all I ask is that you give Elm a shot and see what you think. I hope you will be pleasantly surprised!
 -->
-Como o autor Evan está fazendo um grande esforço para você aprender facilmente Elm e começar a usá-lo, por favor, faça um teste com Elm e deixe-nos saber suas impressões.
+Como o autor Evan está fazendo um grande esforço para você aprender facilmente Elm e começar a usá-lo, por favor, dê uma chance ao Elm e veja o que acha.
 (Em português, nós temos o grupo de telegram [Elm Brasil](https://t.me/elmbrasil), junte-se a nós e conte-nos qual a sua impressão da linguagem).
 
 Espero que Elm te surpreenda positivamente!
