@@ -29,7 +29,7 @@ No final você terá a capacidade de não apenas criar boas aplicações web em 
 <!--
 If you are on the fence, I can safely guarantee that if you give Elm a shot and actually make a project in it, you will end up writing better JavaScript and React code. The ideas transfer pretty easily!
 -->
-Se você está em cima do muro, dê uma chance e utilize Elm num projeto. É muito possível que depois disso você acabe escrevendo um código  melhor em Javascript e React. As idéias do que você vai aprender são facilmente transferíveis!
+Se você está em cima do muro, dê uma chance e utilize Elm num projeto. É muito possível que depois disso você acabe escrevendo um código melhor em Javascript e React. As ideias do que você vai aprender são facilmente reaproveitáveis!
 
 <!--
 ## A Quick Sample
