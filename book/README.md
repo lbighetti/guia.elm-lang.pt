@@ -40,7 +40,7 @@ Se você está em cima do muro, dê uma chance e utilize Elm num projeto. É mui
 <!--
 Of course *I* think Elm is good, so look for yourself.
 -->
-Claro, o Evan, criador original deste guia e também criador do Elm acha o Elm maravilhoso! Nós também achamos, e esperamos que vocês leitores também achem! Para isso, a seguir iniciaremos vendo um programa simples em Elm.
+Claro, o Evan, criador original deste guia e também criador do Elm acha o Elm maravilhoso! Nós também achamos e esperamos que vocês, leitores, também achem! Para isso, a seguir iniciaremos vendo um programa simples em Elm.
 
 <!--
 Here is [a simple counter](https://ellie-app.com/new). If you look at the code, it just lets you increment and decrement the counter:
