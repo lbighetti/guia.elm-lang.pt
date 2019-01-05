@@ -30,7 +30,7 @@ O trabalho de tradução e participação como revisores são muito apreciados!
 $ npx pretranslate ./book/your_file_to_translate
 ```
 
-Comente o arquivo de destino automaticamente para cada parágrafo, executando-o automaticamente e, adicionalmente, acrescente um padrão bilingue do termo que aparece na sentença de acordo com a tabela bilíngüe `./Book/about_translation.md`.
+Comente o arquivo de destino automaticamente para cada parágrafo, executando-o automaticamente e adicionalmente, acrescente um padrão bilingue do termo que aparece na sentença de acordo com a tabela bilingue `./Book/about_translation.md`.
 
 A própria tabela bilíngüe precisa ser atualizada manualmente. Por favor, adicione-o à tabela de tradução sempre que traduzir palavras importantes.
 
