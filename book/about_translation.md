@@ -20,7 +20,7 @@ Existem 3 maneiras de contribuir:
 
 - __Tradução__
 
-Escolha um arquivo ainda não traduzido e comente no issue correspondente que você vai trabalhar nele. Leia o READE do projeto no github para mais informações.
+Escolha um arquivo ainda não traduzido e comente no issue correspondente que você vai trabalhar nele. Leia o README do projeto no github para mais informações.
 
 - __Revisão de PR__
 
