@@ -53,7 +53,7 @@ Termos técnicos são mais complexos de traduzir. Para mantermos um vocabulário
 | Command                     | a ser preenchido |
 | Subscription                | a ser preenchido |
 | type annotation             | a ser preenchido |
-| tuple                       | a ser preenchido |
+| tuple                       | tupla |
 | record                      | a ser preenchido |
 | anonymous function          | a ser preenchido |
 | keyword                     | a ser preenchido |
