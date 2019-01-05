@@ -28,7 +28,7 @@ Quando a tradução acima é feita, precisamos de uma segunda pessoa para revis�
 
 - __Revisão do conteúdo já traduzido__
 
-Além disso, as traduções já feitas podem conter erros ou traduções que não estão claras ou confusas. Submeter alterações pro que já existe é também muito bem vindo!
+Além disso, as traduções já feitas podem conter erros ou traduções que não estão claras. Submeter alterações para o que já existe é também muito bem vindo!
 
 ## Tabela de Tradução
 
