@@ -191,7 +191,7 @@ Elm nao carrega a noção de "truthiness", portanto números, strings e listas n
 Now let's make a function that tells us if a number is over 9000.
 -->
 
-Vamos criar uma função que nos mostra se um número é de mais de 8000.
+Vamos criar uma função que nos mostra se um número é maior que 8000.
 
 ```elm
 > over8000 powerLevel = \
