@@ -153,7 +153,7 @@ Essa função anonima é a mesma que `isNegative`, mas não foi nomeada! Além d
 > **Note:** The backslash that starts anonymous functions is supposed to look like a lambda `λ` if you squint. This is a possibly ill-conceived wink to the intellectual history that led to languages like Elm.
 -->
 
-> **Nota:** A barra invertida no começo da função anônima tem a intenção de se parecer com um lambda `λ`. Isso é referencia para a história intelectual que levou a criação de linguagens como o Elm.
+> **Nota:** A barra invertida no começo da função anônima tem a intenção de se parecer com um lambda `λ`. Isso é uma referência para a história intelectual que levou a criação de linguagens como o Elm.
 
 <!--
 ## If Expressions
