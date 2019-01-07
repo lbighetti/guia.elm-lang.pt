@@ -147,7 +147,7 @@ False
 This anonymous function is the same as `isNegative`, it just is not named! Also, the parentheses in `(\n -> n < 0) 4` are important. After the arrow, Elm is just going to keep reading code as long as it can. The parentheses put bounds on this, indicating where the function body ends. This helps Elm know that `4` is an argument to the function.
 -->
 
-Essa função anonima é a mesma que `isNegative`, mas nao foi nomeada! Além disso os parênteses em `(\n -> n < 0) 4` são importantes. Depois da seta `->`, Elm vai continuar lendo o código até onde puder. O parênteses impõe um limite nisso, indicando onde o corpo da função acaba. Isso ajuda Elm a saber que `4` é um argumento para a função.
+Essa função anonima é a mesma que `isNegative`, mas não foi nomeada! Além disso, os parênteses em `(\n -> n < 0) 4` são importantes. Depois da seta `->`, Elm vai continuar lendo o código até onde puder. O parênteses impõe um limite nisso, indicando onde o corpo da função acaba. Isso ajuda Elm a saber que `4` é um argumento para a função.
 
 <!--
 > **Note:** The backslash that starts anonymous functions is supposed to look like a lambda `λ` if you squint. This is a possibly ill-conceived wink to the intellectual history that led to languages like Elm.
