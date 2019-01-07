@@ -385,7 +385,7 @@ Muitas vezes é útil atualizar os valores em um registro.
 It is important to notice that we do not make *destructive* updates. When we update some fields of `bill` we actually create a new record rather than overwriting the existing one. Elm makes this efficient by sharing as much content as possible. If you update one of ten fields, the new record will share the nine unchanged values.
 -->
 
-É importnate notar que não fazemos atualização **destrutiva**. Quando atualizamos alguns campos de `bill` um novo registro é
+É importante notar que não fazemos atualizações **destrutivas**. Quando atualizamos alguns campos de `bill` um novo registro é
 criado ao invés de sobreescrever o já existente. Elm torna isso eficiênte ao compartilhar o máximo de conteúdo possível. Se você atualizar um campo em um registro de dez campos, o novo registro vai compartilhar nove valores não alterados.
 
 <!--
