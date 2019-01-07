@@ -165,7 +165,7 @@ Essa função anonima é a mesma que `isNegative`, mas não foi nomeada! Além d
 When you want to have conditional behavior in Elm, you use an if-expression.
 -->
 
-No Elm quando se tem um comportamento condicional, se usa uma expressão `if`.
+No Elm, quando se tem um comportamento condicional, usa-se uma expressão `if`.
 
 ```elm
 > if True then "hello" else "world"
