@@ -185,7 +185,7 @@ As palavras-chave `if`, `then` e `else` são utilizadas para separar condições
 Elm does not have a notion of &ldquo;truthiness&rdquo; so numbers and strings and lists cannot be used as boolean values. If we try it out, Elm will tell us that we need to work with a real boolean value.
 -->
 
-Elm nao carrega a noção de "truthiness", portanto números, strings e listas não podem ser usados como valores booleanos. Se tentarmos, Elm vai nos mostrar que precisamos trabalhar com um valore booleano de verdade.
+Elm nao carrega a noção de "truthiness", portanto números, strings e listas não podem ser usados como valores booleanos. Se tentarmos, Elm vai nos mostrar que precisamos trabalhar com um valor booleano de verdade.
 
 <!--
 Now let's make a function that tells us if a number is over 9000.
