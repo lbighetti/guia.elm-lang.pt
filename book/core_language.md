@@ -3,19 +3,19 @@
 # Core Language
 -->
 
-# 言語の基礎
+# Fundamentos da Linguagem
 
 <!--
 This section will walk you through Elm's simple core language.
 -->
 
-この節では、Elmの言語の基礎についてざっと見ていきましょう。
+Essa sessão irá te demonstrar aspectos fundamentais do Elm
 
 <!--
 This works best when you follow along, so after [installing](install.md), run `elm repl` in the terminal. You should see something like this:
 -->
 
-以下の説明の流れをたどっていくときには、REPLを使って実際に手を動かしながら読み進めていくと理解しやすいので、[インストール](install.md)が終わったらターミナルで`elm repl`を実行してみてください。ターミナルに次のようなものが表示されるはずです。
+Todo esse guia foi feito para que você consiga reproduzir cada passo, depois da [instalação](install.md), execute `elm repl` no terminal. Você verá algo como:
 
 ```elm
 ---- Elm 0.19.0 ----------------------------------------------------------------
@@ -28,27 +28,27 @@ Read <https://elm-lang.org/0.19.0/repl> to learn more: exit, help, imports, etc.
 The REPL prints out the type of every result, but **we will leave the type annotations off in this tutorial** for the sake of introducing concepts gradually.
 -->
 
-このREPLは入力のたびにその結果の型を出力してくれますが、Elmの概念を徐々に導入していけるように、**このチュートリアルでは型注釈は省略することにします。**
+O REPL escreve o tipo de cada resultado, mas **deixaremos anotações de tipo fora desse tutorial** para que seja possível introduzir os conceitos de forma gradual.
 
 
 <!--
 We will cover [values](#values), [functions](#functions), [lists](#lists), [tuples](#tuples), and [records](#records). These building blocks all correspond pretty closely with structures in languages like JavaScript, Python, and Java.
 -->
 
-ここでは[値](#values)や[関数](#functions)、[リスト](#lists)、[タプル](#tuples)、[レコード](#records)を取り扱います。これらの言語の要素はいずれも、JavaScriptやPython、Javaのような言語にある構造とよく似たものです。
+Iremos cobrir [valores](#values), [funções](#functions), [listas](#lists), [tuplas](#tuples) e [registros](#records). Esses serão os conceitos fundamentais, e são correspondentes a estruturas de linguagens como Javascript, Python e Java.
 
 <!--
 ## Values
 -->
 
-## 値
+## Valores
 
 
 <!--
 Let's get started with some strings:
 -->
 
-まずは文字列から始めましょう。
+Vamos começar com algumas strings:
 
 ```elm
 > "hello"
@@ -65,13 +65,13 @@ Let's get started with some strings:
 Elm uses the `(++)` operator to put strings together. Notice that both strings are preserved exactly as is when they are put together so when we combine `"hello"` and `"world"` the result has no spaces.
 -->
 
-Elmでは文字列の連結に`(++)`演算子を使います。これらの文字列は厳密にそのまま連結されることに注意してください。`"hello"`と`"world"`を連結したとき、その結果には空白文字は含まれません。
+Elm usa o operador `(++)` para juntar strings. Perceba que as strings são preservadas durante a execução do operador, então quando combinamos `"hello"` e `"world"` o resultado nao tem espaços.
 
 <!--
 Math looks normal too:
 -->
 
-数式の見た目はごく普通です。
+Matemática também é como esperado:
 
 ```elm
 > 2 + 3 * 4
@@ -85,7 +85,7 @@ Math looks normal too:
 Unlike JavaScript, Elm makes a distinction between integers and floating point numbers. Just like Python 3, there is both floating point division `(/)` and integer division `(//)`.
 -->
 
-JavaScriptとは異なり、Elmは整数と浮動小数点数を区別します。ちょうどPython 3と同じように、浮動小数点数の除算`(/)`と整数の除算`(//)`の両方が別々に存在します。
+Diferente do Javascript, Elm distingue inteiros (`int`) e números reais (`float`).  Assim como no Python 3 há uma divisão para números reais `(/)` e divisão de inteiros `(//)`.
 
 ```elm
 > 9 / 2
@@ -99,13 +99,13 @@ JavaScriptとは異なり、Elmは整数と浮動小数点数を区別します�
 ## Functions
 -->
 
-## 関数
+## Funções
 
 <!--
 Let's start by writing a function `isNegative` that takes in some number and checks if it is less than zero. The result will be `True` or `False`.
 -->
 
-引数にとった数がゼロよりも小さいかどうかを調べる、`isNegative`関数を書いてみましょう。この関数の結果は、`True`か`False`になるでしょう。
+Vamos começar escrevendo a função `isNegative`, que recebe um número e verifica se é menor que zero. O resultado será `True` ou `False`.
 
 ```elm
 > isNegative n = n < 0
@@ -125,7 +125,7 @@ False
 Notice that function application looks different than in languages like JavaScript and Python and Java. Instead of wrapping all arguments in parentheses and separating them with commas, we use spaces to apply the function. So `(add(3,4))` becomes `(add 3 4)` which ends up avoiding a bunch of parens and commas as things get bigger. Ultimately, this looks much cleaner once you get used to it! The [elm/html][html] package is a good example of how this keeps things feeling light.
 -->
 
-JavaScriptやPython、Javaのような言語とは関数適用の見た目が異なっていることに注目してください。括弧の中にすべての引数をカンマで区切って書くのではなく、関数を適用するのには単に空白を使います。そのため、`(add(3,4))`は`(add 3 4)`になり、結果として括弧やカンマをたくさん書いてコードが長くなるのを避けることができるのです。いったんこれに慣れてしまえば、括弧やカンマを使う構文よりもずっと読みやすく感じられるようになるはずです！　[elm/html][html]パッケージを見ると、この関数適用の構文のお陰でコードが読みやすく保たれているのがわかると思います。
+Perceba que a aplicação da função parece diferente de outras linguagens como Javascript, Python e Java. Ao invés de adicionar parênteses entre os argumentos e separó-los por vírgulas, nós usamos espaços para executar a função. Então termos como `(add(3,4))` vira `(add 3 4)` o que acaba evitando vários parênteses e virgulas conforme o código aumenta. Em ultima instância, parece bem mais claro uma vez que se habitua com isso! O pacote [elm/html][html] é um bom exemplo de como isso ajuda a manter o código leve.
 
 [html]: https://elm-lang.org/blog/blazing-fast-html-round-two
 
@@ -133,7 +133,7 @@ JavaScriptやPython、Javaのような言語とは関数適用の見た目が異
 You can also define _anonymous functions_ like this:
 -->
 
-**無名関数**を使えば、この関数を次のように定義することもできます。
+**Funções anônimas** podem ser definidas da seguinte maneira:
 
 ```elm
 > \n -> n < 0
@@ -147,25 +147,25 @@ False
 This anonymous function is the same as `isNegative`, it just is not named! Also, the parentheses in `(\n -> n < 0) 4` are important. After the arrow, Elm is just going to keep reading code as long as it can. The parentheses put bounds on this, indicating where the function body ends. This helps Elm know that `4` is an argument to the function.
 -->
 
-名前が付いていないだけで、この無名関数は`isNegative`と同じものです。また、`(\n -> n < 0) 4`に付けられた括弧は重要です。矢印に続けて、Elmはなるべく長くコードを読み続けようとします。この括弧はその範囲を制限し、関数本体がどこで終わるのかを示しているのです。これによってElmは`4`が関数の引数であるとわかるのです。
+Essa função anonima é a mesma que `isNegative`, mas não foi nomeada! Além disso, os parênteses em `(\n -> n < 0) 4` são importantes. Depois da seta `->`, Elm vai continuar lendo o código até onde puder. O parênteses impõe um limite nisso, indicando onde o corpo da função acaba. Isso ajuda Elm a saber que `4` é um argumento para a função.
 
 <!--
 > **Note:** The backslash that starts anonymous functions is supposed to look like a lambda `λ` if you squint. This is a possibly ill-conceived wink to the intellectual history that led to languages like Elm.
 -->
 
-> **Note:** 目を細めて見ると、無名関数の先頭のバックスラッシュはラムダ(`λ`)と似ているように見えると思います。これはひょっとしたら、Elmのような言語を産んだ数学の歴史的背景を、何気なく覗き見てしまっているのかもしれませんね。
+> **Nota:** A barra invertida no começo da função anônima tem a intenção de se parecer com um lambda `λ`. Isso é uma referência para a história intelectual que levou a criação de linguagens como o Elm.
 
 <!--
 ## If Expressions
 -->
 
-## If式
+## Expressões condicionais `if`
 
 <!--
 When you want to have conditional behavior in Elm, you use an if-expression.
 -->
 
-Elmで条件に応じて振る舞いを変えたいなら、if式を使うといいでしょう。
+No Elm, quando se tem um comportamento condicional, usa-se uma expressão `if`.
 
 ```elm
 > if True then "hello" else "world"
@@ -179,61 +179,62 @@ Elmで条件に応じて振る舞いを変えたいなら、if式を使うとい
 The keywords `if` `then` `else` are used to separate the conditional and the two branches so we do not need any parentheses or curly braces.
 -->
 
-この`if`と`then`、`else`という予約語は、条件部分とふたつの分岐部分を区切るのに使われており、丸括弧や波括弧を使う必要はまったくありません。
+As palavras-chave `if`, `then` e `else` são utilizadas para separar condições e ambas ramificações, assim não precisamos de parênteses ou chaves.
 
 <!--
 Elm does not have a notion of &ldquo;truthiness&rdquo; so numbers and strings and lists cannot be used as boolean values. If we try it out, Elm will tell us that we need to work with a real boolean value.
 -->
 
-Elmは"truthiness"の概念を持たず、数や文字列、リストを真偽値として使うことはできません。もしそうしようとすると、本当の真偽値を使う必要があることをElmは教えてくれます。
+Elm nao carrega a noção de "truthiness", portanto números, strings e listas não podem ser usados como valores booleanos. Se tentarmos, Elm vai nos mostrar que precisamos trabalhar com um valor booleano de verdade.
 
 <!--
 Now let's make a function that tells us if a number is over 9000.
 -->
 
-次は9000以上の数であるかどうかを教えてくれる関数を作ってみましょう。
+Vamos criar uma função que nos mostra se um número é maior que 8000.
 
 ```elm
-> over9000 powerLevel = \
-|   if powerLevel > 9000 then "It's over 9000!!!" else "meh"
+> over8000 powerLevel = \
+|   if powerLevel > 8000 then "It's over 8000!!!" else "meh"
 <function>
 
-> over9000 42
+> over8000 42
 "meh"
 
-> over9000 100000
-"It's over 9000!!!"
+> over8000 100000
+"It's over 8000!!!"
 ```
 
 <!--
 Using a backslash in the REPL lets us split things on to multiple lines. We use this in the definition of `over9000` above. Furthermore, it is best practice to always bring the body of a function down a line. It makes things a lot more uniform and easy to read, so you want to do this with all the functions and values you define in normal code.
 -->
 
-REPLでバックスラッシュを使うと、1行のコードを複数行に分割して入力することができます。上の`over9000`の定義でこれを使っていますね。それから、関数の本体でいつも1行下げるのはElmの良い習慣です。こうすると一貫性があり読むのが楽になるので、通常はコード中のすべての関数や値についてこのように字下げしたくなると思います。
+Usando a barra invertida no REPL nos permite dividir nosso código em diversas linhas. Nós usamos isso na definição de `over8000` acima. Além disso é sempre uma boa prática deixar o corpo da função uma linha abaixo. Isso faz as coisas muito mais uniformes e fáceis de ler, então é preferível que isso seja usado em valores e funções no seu código normalmente.
 
 <!--
 > **Note:** Make sure that you add a whitespace before the second line of the function. Elm has a "syntactically significant whitespace" meaning that indentation is a part of its syntax.
 -->
 
-> **Note:** 関数の二行目の先頭には、空白文字を追加するようにしてください。「構文として意味のある空白」、つまりElmはその構文の一部としてインデントを持っているのです。
+> **Nota:** Certifique-se que há um espaço antes da segunda linha da função. Elm possuí "espaço sintaticamente significante" isso significa que a indentação é parte da sintaxe.
 
 <!--
 ## Lists
 -->
 
-## リスト
+## Listas
 
 <!--
 Lists are one of the most common data structures in Elm. They hold a sequence of related things, similar to arrays in JavaScript.
 -->
 
-リストはElmでも最もよく使われるデータ構造のひとつです。リストは互いに関連する値の連続を保持するもので、JavaScriptの配列にも似ています。
+Listas são uma das estruturas de dados mais comuns no Elm. É uma sequência de elementos relacionados, similar a arrays no Javascript.
 
 <!--
 Lists can hold many values. Those values must all have the same type. Here are a few examples that use functions from the [`List`][list] module:
 -->
 
-リストは複数の値を持つことができますが、それらの値はすべて同じ型を持っていなければなりません。例として、[`List`][list]モジュールから幾つかの関数を見てみましょう。
+Uma lista pode conter vários valores. Esses valores devem ser todos do mesmo tipo. Esses são alguns exemplos usando funções do módulo [`List`][list]:
+
 
 [list]: https://package.elm-lang.org/packages/elm/core/latest/List
 
@@ -267,20 +268,20 @@ False
 Again, all elements of the list must have the same type.
 -->
 
-繰り返しますが、リストのすべての要素は同じ型を持っていなければならないことに注意してください。
+Reforçando, todos os elementos da lista devem ter o mesmo tipo.
 
 
 <!--
 ## Tuples
 -->
 
-## タプル
+## Tuplas
 
 <!--
 Tuples are another useful data structure. A tuple can hold a fixed number of values, and each value can have any type. A common use is if you need to return more than one value from a function. The following function gets a name and gives a message for the user:
 -->
 
-タプルはリストとはまた異なった便利なデータ構造です。タプルは固定された個数の値を保持することができ、それらの値の型はそれぞれ別々にすることができます。典型的な使いかたとしては、関数からふたつ以上の値を返す必要があるときです。次の関数は名前を受け取り、ユーザにメッセージを返します。
+Tuples são outra estrutura de dados muito úteis. Uma tupla pode ter um número fixo de valores, e cada valor pode ter qualquer tipo. Um uso comum é quando se precisa retornar mais de um valor em uma função. A função abaixo recebe um nome e devolve uma mensagem para o usuário:
 
 ```elm
 > import String
@@ -299,20 +300,20 @@ Tuples are another useful data structure. A tuple can hold a fixed number of val
 This can be quite handy, but when things start becoming more complicated, it is often best to use records instead of tuples.
 -->
 
-タプルはとても便利な場面もありますが、それによってコードが複雑になり始めたときは、タプルではなくレコードを使うほうがいいでしょう。
+Tuplas podem ser bem úteis, mas quando a complexidade aumentar, geralmente é melhor usar um registro (`record`).
 
 
 <!--
 ## Records
 -->
 
-## レコード
+## Registros
 
 <!--
 A record is a fixed set of key-value pairs, similar to objects in JavaScript or Python. You will find that they are extremely common and useful in Elm! Let's see some basic examples.
 -->
 
-レコードはJavaScriptやPythonのオブジェクトに似たデータ型で、レコードは任意個のフィールドを持っていて、それぞれのフィールドに値を格納したり、フィールドから値を取り出すことができます。ただしElmのレコードのフィールドは固定されていて、レコードに動的にフィールドを付け加えたり取り除いたりすることはできません。レコードはElmではとても頻繁に使われる便利なものであることがすぐにわかるでしょう！　いくつか簡単な例を見ていきます。
+Um registro é um conjunto fixo de pares chave-valor, similar a objetos em Javascript ou Python. Você vai perceber que são extremamente comuns e úteis em Elm. Vamos ver alguns exemplos básicos.
 
 ```elm
 > point = { x = 3, y = 4 }
@@ -332,7 +333,7 @@ A record is a fixed set of key-value pairs, similar to objects in JavaScript or 
 So we can create records using curly braces and access fields using a dot. Elm also has a version of record access that works like a function. By starting the variable with a dot, you are saying *please access the field with the following name*. This means that `.name` is a function that gets the `name` field of the record.
 -->
 
-波括弧を使うとレコードを作ることができ、フィールドにアクセスするにはドットを使います。Elmのレコードアクセスには、関数のように振る舞う別の構文もあります。変数名の先頭にドットを付けると、「次の名前でフィールドにアクセスしてください」と言っていることになります。`.name`はレコードの`name`フィールドを取り出す関数であるという意味です。
+Podemos criar registro usando chaves e acessar campos usando um ponto. Elm também tem uma versão de acesso de registros que funciona como uma função. Ao começar a variável com um ponto, você está dizendo *por favor acesse o campo com este nome*. Isso significa que `.name` é uma função que recebe o campo `nome` do registro.
 
 
 ```elm
@@ -347,7 +348,7 @@ So we can create records using curly braces and access fields using a dot. Elm a
 When it comes to making functions with records, you can do some pattern matching to make things a bit lighter.
 -->
 
-関数がレコードを引数にとるときは、パターンマッチを使えば少しコードをわかりやすくすることができます。
+Quando estiver fazendo funções com registros, é possível usar pattern matching para tornar as coisas mais leves. 
 
 ```elm
 > under70 {age} = age < 70
@@ -364,13 +365,13 @@ False
 So we can pass any record in as long as it has an `age` field that holds a number.
 -->
 
-数値型の`age`フィールドを持っているレコードであれば、どんなレコードであっても渡すことができます。
+Podemos passar qualquer registro enquanto existir um campo com nome `age` cujo valor é um número.
 
 <!--
 It is often useful to update the values in a record.
 -->
 
-レコードが持つ値を更新するときに便利な、次のような構文もあります。
+Muitas vezes é útil atualizar os valores em um registro.
 
 ```elm
 > { bill | name = "Nye" }
@@ -384,8 +385,8 @@ It is often useful to update the values in a record.
 It is important to notice that we do not make *destructive* updates. When we update some fields of `bill` we actually create a new record rather than overwriting the existing one. Elm makes this efficient by sharing as much content as possible. If you update one of ten fields, the new record will share the nine unchanged values.
 -->
 
-この構文ではレコードの**破壊的な更新**をしているのではないことに注意してください。`bill`のフィールドを更新したとき、実際には既存のレコードを上書きしているのではなく、新たなレコードが作成されています。効率のため、Elmは新しいレコードの内容を古いレコードとなるべく共有しようとします。もし10個のフィールドのうちのひとつを更新したとしたら、変更されていない残りの9個の値は新しいレコードも共有します。
-
+É importante notar que não fazemos atualizações **destrutivas**. Quando atualizamos alguns campos de `bill` um novo registro é
+criado ao invés de sobreescrever o já existente. Elm torna isso eficiênte ao compartilhar o máximo de conteúdo possível. Se você atualizar um campo em um registro de dez campos, o novo registro vai compartilhar nove valores não alterados.
 
 <!--
 > ### Records vs Objects
@@ -403,16 +404,17 @@ It is important to notice that we do not make *destructive* updates. When we upd
 [st]: https://en.wikipedia.org/wiki/Structural_type_system "Structural Types"
 -->
 
-> ### レコードとオブジェクトの比較
+> ### Registros vs Objetos
 >
-> ElmのレコードはJavaScriptのオブジェクトと**似ています**が、幾つか重要な違いもあります。レコードには次のような特徴があります。
+> Registros no Elm são *similares* a objetos em Javascript, mas existem diferenças importantes. Com registros:
 >
-> - 存在しないフィールドにアクセスすることはできません。
-> - フィールドが `undefined` や `null`　になることもありません。
-> - `this` や `self` キーワードを使って再帰的なレコードを作ることはできません。
+> - Não é possível pedir por um campo que não existe.
+> - Nenhum campo será `undefined` ou `null`.
+> - Não é possível criar registros recursivos com as palavras-chave `this` ou `self`.
 >
-> Elmではデータとロジックを厳格に分離することが推奨されますが、この分離を破壊するのは主に `this` だと言って差し支えないでしょう。これはオブジェクト指向言語のシステム上の問題であり、Elmはこの問題を意図的に避けています。
+> Elm encoraja a separação estrita entre dados e lógica, e a habilidade de usar `this` é primordialmente usada para quebrar essa separação. Isso é um problema sistêmico em linguagens orientadas a objetos que o Elm está evitando propositalmente.
 >
-> レコードは[構造的部分型][st]も提供しており、Elmでは必要なフィールドが存在している限りは、そのレコードを関数の引数などとして使うことができます。これにより、信頼性について妥協することなく、柔軟性も得ることができるのです。
+> Esse registro também suporta [tipagem estrutural][st] que significa que registros no Elm podem ser usados em qualquer situação enquanto os campos necessários existem. Isso nos dá flexibilidade sem comprometer a confiança.
+
 
 [st]: https://en.wikipedia.org/wiki/Structural_type_system "Structural Types"
