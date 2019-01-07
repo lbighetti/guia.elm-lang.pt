@@ -85,7 +85,7 @@ Matemática também é como esperado:
 Unlike JavaScript, Elm makes a distinction between integers and floating point numbers. Just like Python 3, there is both floating point division `(/)` and integer division `(//)`.
 -->
 
-Diferente do Javascript, Elm distingue entre inteiros (`int`) e números reais (`float`).  Assim como no Python 3 há uma divisão para números reais `(/)` e divisão de inteiros `(//)`.
+Diferente do Javascript, Elm distingue inteiros (`int`) e números reais (`float`).  Assim como no Python 3 há uma divisão para números reais `(/)` e divisão de inteiros `(//)`.
 
 ```elm
 > 9 / 2
