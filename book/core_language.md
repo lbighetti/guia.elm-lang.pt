@@ -35,7 +35,7 @@ O REPL escreve o tipo de cada resultado, mas **deixaremos anotações de tipo fo
 We will cover [values](#values), [functions](#functions), [lists](#lists), [tuples](#tuples), and [records](#records). These building blocks all correspond pretty closely with structures in languages like JavaScript, Python, and Java.
 -->
 
-Iremos cobrir [valores](#values), [funções](#functions), [listas](#lists), [tuplas](#tuples) e [registros](#records). Esses serão os conceitos fundamentais, e são correspondentes próximos com estrutras de linguagens como Javascript, Python e Java.
+Iremos cobrir [valores](#values), [funções](#functions), [listas](#lists), [tuplas](#tuples) e [registros](#records). Esses serão os conceitos fundamentais, e são correspondentes a estruturas de linguagens como Javascript, Python e Java.
 
 <!--
 ## Values
