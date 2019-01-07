@@ -215,7 +215,7 @@ Usando a barra invertida no REPL nos permite dividir nosso código em diversas l
 > **Note:** Make sure that you add a whitespace before the second line of the function. Elm has a "syntactically significant whitespace" meaning that indentation is a part of its syntax.
 -->
 
-> **Nota:** Certifique-se que há um espaço antes da segunda linha da função. Elm possuí "espaço síntaticamente significante" isso significa que a identação é parte da sintáxe.
+> **Nota:** Certifique-se que há um espaço antes da segunda linha da função. Elm possuí "espaço sintaticamente significante" isso significa que a indentação é parte da sintaxe.
 
 <!--
 ## Lists
