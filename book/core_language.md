@@ -414,7 +414,7 @@ criado ao invés de sobreescrever o já existente. Elm torna isso eficiênte ao 
 >
 > Elm encoraja a separação estrita entre dados e lógica, e a habilidade de usar `this` é primordialmente usada para quebrar essa separação. Isso é um problema sistêmico em linguagens orientadas a objetos que o Elm está evitando propositalmente.
 >
-> Esse registro também suporta [tipagem estrutural][st] que significa que registro no Elm podem ser usados em qualquer situação enquanto os campos necessários existem. Isso nos dá flexibilidade sem comprometer a confiança.
+> Esse registro também suporta [tipagem estrutural][st] que significa que registros no Elm podem ser usados em qualquer situação enquanto os campos necessários existem. Isso nos dá flexibilidade sem comprometer a confiança.
 
 
 [st]: https://en.wikipedia.org/wiki/Structural_type_system "Structural Types"
