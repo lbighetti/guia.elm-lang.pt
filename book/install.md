@@ -215,13 +215,13 @@ Isto irá adicionar as dependências em seu arquivo `elm.json`, descrito em mais
 [json]: https://package.elm-lang.org/packages/elm/json/latest
 
 <!--
-## Resumo
+## Summary
 The `elm` binary can do a bunch of stuff. Do not worry about remembering it all. You can always just run `elm --help` or `elm repl --help` to get a bunch of information about any of these commands.
 
 Next we are going to learn the basics of Elm!
 -->
 
-## まとめ
+## Resumo
 O binário `elm` pode fazer um monte de coisas. Não se preocupe em lembrar de tudo. Você pode simplesmente executar o comando `elm --help` ou` elm repl --help` para obter várias informações sobre qualquer um desses comandos.
 
 Em seguida, vamos aprender o básico de Elm!
