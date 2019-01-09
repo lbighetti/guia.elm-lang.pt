@@ -1,74 +1,61 @@
-# 翻訳について
+# Sobre este tradução
 
-この翻訳はElmの[公式ガイド](https://guide.elm-lang.org/)の内容を元に、[elm-jpコミュニティ](https://elm-lang.jp)のメンバーによって翻訳されたものです。
+Com base no conteúdo do Guia Oficial do Elm (https://guide.elm-lang.org/), esta tradução está sendo feita por membros da [comunidade Elm Brasil](https://t.me/elmbrasil).
 
-入門コンテンツという性質上、この翻訳は原文に厳密なことよりも「日本語として自然で理解しやすい文章であること」を心がけています。
-そのため、一部大きく意訳されているところもありますが、elm-jpコミュニティによるレビューを経ているためElmの実態と大きく異なることはないはずです。
+Devido à natureza do conteúdo introdutório, esta tradução visa ter frases naturais e fáceis de entender em português, ao invés de ser uma tradução estrita do texto original.
 
-ただ、やはり原著者でありElm自体の作者であるEvanの「肉声」を知りたいのであれば原著をお読みいただくことをお勧めします。
+No entanto, se você quiser conhecer a "voz real" de Evan, que ainda é o autor original e o criador do próprio Elm, recomendamos que você leia o trabalho original.
 
-## 原文のバージョン
+## Versão original
 
-この翻訳はできる限り英語版の更新に追従するように努めていますが、ボランティアで運営されているため更新が追いつかないこともあります。
-[翻訳がベースとしているバージョンと英語版の最新バージョンとの差分](https://github.com/evancz/guide.elm-lang.org/compare/master...466516e62007db370c9277ea62be7dea3c644b70)をご確認ください。
+Embora esta tradução esteja tentando acompanhar o máximo possível a atualização da versão em inglês, a atualização pode não ser atualizada porque é operada por voluntários.
+[Diferença entre a versão em que a tradução é baseada e a versão mais recente da versão em inglês](https://github.com/evancz/guide.elm-lang.org/compare/master...466516e62007db370c9277ea62be7dea3c644b70).
 
-"There isn’t anything to compare." と表示されていれば翻訳が最新の英語版に対応していることを意味します。
+Se estiver escrito "There isn’t anything to compare.", isso significa que a tradução corresponde à última versão em inglês.
 
-## 翻訳に貢献するには
+## Como contribuir para a tradução
 
-Elm guide の翻訳に貢献してくださる方を募集しています。
-がっつりした翻訳作業だけでなく、この日本語版を読んでいる中で「ここの日本語の意味がわからない」と思った部分をご報告いただくだけでもとてもありがたいです。
-Elm guide は初学者の方にも分かることを重視したドキュメントなので、「自分のElmに関する知識が足りないからだ」と思わずに、「自分がわからないということは他の初学者もわからないに違いない」と圧倒的他責精神で [githubリポジトリのissue](https://github.com/elm-jp/guide/issues) としてどんどんご報告ください。
+Estamos à procura de voluntários para contribuir com a tradução deste guia Elm.
+Existem 3 maneiras de contribuir:
 
-翻訳への貢献に関するより詳しい話は[githubリポジトリ](https://github.com/elm-jp/guide/#readme)をご参照ください。
+- __Tradução__
 
-## 訳語対応表
+Escolha um arquivo ainda não traduzido e comente no issue correspondente que você vai trabalhar nele. Leia o README do projeto no github para mais informações.
 
-この翻訳プロジェクトで使う訳語と元の英単語の対応を表に表しました。
-学習にお役立てください。
+- __Revisão de PR__
 
-<!--
-対訳表のうち、コメントアウトした行はウェブ上には表示されません `pretranslate` コマンドには読み込まれます。
-翻訳者の間で共有したほうが良いが、あえて読者に見せる必要はないような対訳を記載しておくと便利です。
+Quando a tradução acima é feita, precisamos de uma segunda pessoa para revisá-la antes de fazermos o merge.
 
-また、名詞はできるだけ単数形で記載してください。
-複数形が "s" や "es" をつけるだけの名詞の場合は単数形でそのまま単純に原文を検索すれば複数形もマッチするため、
-`pretranslate` コマンドがうまく原文から単語を見つけることができます。
+- __Revisão do conteúdo já traduzido__
 
-"industry" <-> "industries"
-"leaf" <-> "leaves"
-"kitchen knife" <-> "kitchen knives"
-のように特殊な活用をする単語の場合はコメントとして付記するといいでしょう。
--->
+Além disso, as traduções já feitas podem conter erros ou traduções que não estão claras. Submeter alterações para o que já existe é também muito bem vindo!
 
-| 訳語              | 原文            |
-|:-----------------:|:---------------:|
-| 型の別名          | type alias      |
-| オブジェクト指向  | object oriented |
-| テキストフィールド| text field      |
-| カスタム型        | custom type     |
-| パターンマッチ    | pattern match   |
-| 相互運用          | interop         |
-| カスタムエレメンツ| custom element  |
-| パース            | parsing         |
-| パースする        | parse           |
-| バリアント    | variant       |
-| パターンマッチ | pattern matching |
-| 補助関数       | helper function  |
-| アセット | asset |
-| ミニファイ | minify |
-| コマンド | Command |
-| サブスクリプション | Subscription |
-| 型注釈 | type annotation |
-| タプル | tuple |
-| レコード | record |
-| 無名関数 | anonymous function |
-| 予約語 | keyword |
-| 構造的部分型 | structural typing |
-| 制約付き型変数 | constrained type variable |
-<!-- | ソースコード自身がその意味するところを雄弁に語るようになります | self-documenting | -->
-<!-- | ソースコード自身がその意味するところを雄弁に語るようになります | self-documented | -->
-<!-- | 章 | chapter | -->
-<!-- | 節 | section | -->
-<!-- | ウェブアプリケーション | webapp          | -->
-<!-- | The Elm Architecture | The Elm Architecture | -->
+## Tabela de Tradução
+
+Termos técnicos são mais complexos de traduzir. Para mantermos um vocabulário comum pela tradução toda vamos utilizar essa tabela para traduzir termos técnicos:
+
+| Original                    | Tradução                    |
+|:---------------------------:|:---------------------------:|
+| type alias                  | a ser preenchido |
+| object oriented             | a ser preenchido |
+| text field                  | a ser preenchido |
+| custom type                 | a ser preenchido |
+| pattern match               | a ser preenchido |
+| interop                     | a ser preenchido |
+| custom element              | a ser preenchido |
+| parsing                     | a ser preenchido |
+| parse                       | a ser preenchido |
+| variant                     | a ser preenchido |
+| pattern matching            | a ser preenchido |
+| helper function             | a ser preenchido |
+| asset                       | a ser preenchido |
+| minify                      | a ser preenchido |
+| Command                     | a ser preenchido |
+| Subscription                | a ser preenchido |
+| type annotation             | a ser preenchido |
+| tuple                       | tupla |
+| record                      | registro |
+| anonymous function          | função anônima |
+| keyword                     | a ser preenchido |
+| structural typing           | a ser preenchido |
+| constrained type variable   | a ser preenchido |
