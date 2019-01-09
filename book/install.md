@@ -222,6 +222,6 @@ Next we are going to learn the basics of Elm!
 -->
 
 ## まとめ
-O binário `elm` pode fazer um monte de coisas. Não se preocupe em lembrar de tudo. Você pode simplesmente executar o comando `elm --help` ou` elm repl --help` para obter um monte de informações sobre qualquer um desses comandos.
+O binário `elm` pode fazer um monte de coisas. Não se preocupe em lembrar de tudo. Você pode simplesmente executar o comando `elm --help` ou` elm repl --help` para obter várias informações sobre qualquer um desses comandos.
 
 Em seguida, vamos aprender o básico de Elm!
