@@ -2,7 +2,7 @@
 > **Note:** If you do not want to install yet, you can follow along anyway. Most sections can be done in an online editor!
 -->
 
-> **お知らせ:** まだElmをインストールしたくない場合は、インストールをしないままでも構いません。ほとんどの節ではオンラインエディタで完結できます。
+> **Nota:** Se você não deseja instalar ainda, você pode acompanhar o guia de qualquer maneira. A maioria das seções podem ser feitas em um editor online!
 
 
 <!--
@@ -22,20 +22,20 @@ After installing through any of those routes, you will have the `elm` binary ava
 > **Troubleshooting:** The fastest way to learn *anything* is to talk with other people in the Elm community. We are friendly and happy to help! So if you get stuck during installation or encounter something weird, visit [the Elm Slack](http://elmlang.herokuapp.com/) and ask about it. In fact, if you run into something confusing at any point while learning or using Elm, come ask us about it. You can save yourself hours. Just do it!
 -->
 
-# インストール
+# Instalação
 
-  * Mac &mdash; [インストーラー][mac]
-  * Windows &mdash; [インストーラー][win]
-  * Linux &mdash; [インストールガイド][linux]
+  * Mac &mdash; [Instalador][mac]
+  * Windows &mdash; [Instalador][win]
+  * Linux &mdash; [link direto][linux]
 
 [mac]: https://github.com/elm/compiler/releases/download/0.19.0/installer-for-mac.pkg
 [win]: https://github.com/elm/compiler/releases/download/0.19.0/installer-for-windows.exe
 [linux]: https://gist.github.com/evancz/442b56717b528f913d1717f2342a295d
 [npm]: https://www.npmjs.com/package/elm
 
-上記いずれかの方法でElmをインストールすると、`elm`コマンドがターミナルから利用できるようになります。
+Depois de instalar através de qualquer uma dessas opções, você terá o binário `elm` disponível em seu terminal!
 
-> **トラブルシューティング** *全て*を学ぶための最も手っ取り早い方法は、Elmコミュニティにいる人々と会話することです。Elmコミュニティはフレンドリーに、そして喜んで手助けをします！もしインストールに行き詰まったり何か見たこともない事態に遭遇したときは、[Elm Slack](http://elmlang.herokuapp.com/)(英語)や[elm-jp Discord](https://discordapp.com/invite/m9Ew6fR)(日本語)に参加して質問してください。特にElmの学習中や利用中にわからないことがあったときは、そのことについて質問しに来てください。うまく質問して時間を節約しましょう。行動あるのみです！
+> **Resolução de problemas** A maneira mais rápida de aprender *qualquer coisa*, é conversando com outras pessoas na comunidade Elm. Nós somos amigáveis e felizes em ajudar! Então, se você ficar preso durante a instalação ou encontrar algo estranho, visite o [Slack Elm](http://elmlang.herokuapp.com/) e pergunte. De fato, se você se deparar com algo confuso a qualquer momento enquanto aprende ou usa Elm, venha nos perguntar sobre isso. Você pode economizar horas. Apenas faça!
 
 
 <!--
@@ -60,9 +60,9 @@ You may also want to try out [elm-format][] which makes your code pretty!
 -->
 
 
-## エディタの設定
+## Configure Your Editor
 
-エディタがあるとElmが書きやすくなります。少なくとも以下のエディタにはElmプラグインが用意されています。
+Usar o Elm é muito melhor quando você tem um editor de código para ajudá-lo. Existem plugins Elm para os seguintes editores:
 
   * [Atom](https://atom.io/packages/language-elm)
   * [Brackets](https://github.com/lepinay/elm-brackets)
@@ -73,9 +73,9 @@ You may also want to try out [elm-format][] which makes your code pretty!
   * [Vim](https://github.com/ElmCast/elm-vim)
   * [VS Code](https://github.com/sbrink/vscode-elm)
 
-まだどのエディタもインストールしていない場合は、[Sublime Text](https://www.sublimetext.com/)が入門に最適です。
+Se você não tiver nenhum editor, o [Sublime Text](https://www.sublimetext.com/) é ótimo para começar!
 
-また、コードを美しくする[elm-format][]を試してみるのも良いでしょう。
+Você também pode querer experimentar [elm-format][] que torna o seu código bonito!
 
 [elm-format]: https://github.com/avh4/elm-format
 
@@ -85,8 +85,8 @@ You may also want to try out [elm-format][] which makes your code pretty!
 So we have this `elm` binary now, but what can it do exactly?
 -->
 
-## ターミナル用ツール
-`elm`コマンドをインストールしましたが、どんなことができるのでしょうか？
+## Ferramentas para terminal
+Então, nós temos esse binário `elm` agora, mas o que ele pode fazer exatamente?
 
 <!--
 ### `elm repl`
@@ -114,7 +114,7 @@ We will be using `elm repl` in the upcoming &ldquo;Core Language&rdquo; section,
 -->
 
 ### `elm repl`
-`elm repl` はターミナル上でElmの式を試すために使えます。
+`elm repl` nos permite interagir com expressões Elm no terminal.
 
 ```elm
 $ elm repl
@@ -131,7 +131,7 @@ Read <https://elm-lang.org/0.19.0/repl> to learn more: exit, help, imports, etc.
 $
 ```
 
-`elm repl`は&ldquo;Core Language&rdquo;の節で使います。詳しい使い方は[こちら](https://elm-lang.org/0.19.0/repl)をご覧ください。
+**Nota:** `elm repl` funciona compilando código para JavaScript, então tenha certeza que você tem o [Node.js](http://nodejs.org/) instalado. Usamos isso para avaliar o código.
 
 
 <!--
@@ -149,7 +149,7 @@ This starts a server at [`http://localhost:8000`](http://localhost:8000). You ca
 -->
 
 ### `elm reactor`
-`elm reactor`を使うと、ターミナルを頻繁に操作しなくてもElmプロジェクトをビルドできます。例えば次の例のように、プロジェクトのルートディレクトリで以下のコマンドを入力してみてください。
+`elm reactor` ajuda você a construir projetos de Elm sem mexer muito no terminal. Você apenas executa o comando na raiz do seu projeto, assim:
 
 ```bash
 git clone https://github.com/evancz/elm-architecture-tutorial.git
@@ -157,7 +157,7 @@ cd elm-architecture-tutorial
 elm reactor
 ```
 
-サーバーが[`http://localhost:8000`](http://localhost:8000)で起動します。ここでは任意のElmファイルを確認することができます。`examples/01-button.elm`を確認してみてください。
+Com este comando, irá iniciar um servidor em [`http://localhost:8000`](http://localhost:8000). Você pode navegar em qualquer arquivo Elm e ver o que parece. Tente acessar `examples/01-button.elm` no navegador.
 
 <!--
 ## `elm make`
@@ -172,9 +172,9 @@ elm make Main.elm --output=main.html
 -->
 
 ### `elm make`
-`elm make`を使ってElmプロジェクトをビルドできます。ElmコードはHTMLやJavaScriptにコンパイルされます。このコマンドは最も一般的なElmコードのビルド方法で、`elm reactor`の恩恵を受けているのなら`elm make`も直接使いたくなるでしょう。
+`elm make` constrói projetos Elm. Pode compilar o código Elm para HTML ou JavaScript. É a maneira mais comum de compilar o código Elm, então se o seu projeto se tornar muito avançado para o `elm reactor`, você pode optar por usar o` elm make` diretamente.
 
-`Main.elm`を`main.html`という名前でコンパイルしたい場合、以下のようにします。
+Digamos que você queira compilar `Main.elm` para um arquivo HTML chamado` main.html`. Você executaria este comando:
 
 ```bash
 elm make Main.elm --output=main.html
@@ -200,29 +200,28 @@ This will add the dependencies into your `elm.json` file, described in more deta
 
 ### `elm install`
 
-Elmのパッケージは全て[`package.elm-lang.org`](https://package.elm-lang.org/)に置かれています。
+Todos os pacotes Elm podem ser encontrados em [`package.elm-lang.org`](https://package.elm-lang.org/).
 
-例えばHTTPリクエストを組み立てるために[`elm/http`][http]パッケージと[`elm/json`][json]パッケージをプロジェクトに追加したいときは、以下のコマンドでインストールすることができます。
+Vamos supor que, em um belo dia seu projeto precise fazer requisições HTTP [`elm/http`][http] e manipular [`elm/json`][json]. Você pode configurá-los em seu projeto com os seguintes comandos:
 
 ```bash
 elm install elm/http
 elm install elm/json
 ```
 
-このコマンドでは`elm.json`に依存関係を追記します。詳細は[こちら](https://github.com/elm/compiler/blob/master/docs/elm.json/application.md)をご覧ください。
+Isto irá adicionar as dependências em seu arquivo `elm.json`, descrito em mais detalhes [aqui](https://github.com/elm/compiler/blob/master/docs/elm.json/application.md).
 
 [http]: https://package.elm-lang.org/packages/elm/http/latest
 [json]: https://package.elm-lang.org/packages/elm/json/latest
 
 <!--
-## Summary
-
+## Resumo
 The `elm` binary can do a bunch of stuff. Do not worry about remembering it all. You can always just run `elm --help` or `elm repl --help` to get a bunch of information about any of these commands.
 
 Next we are going to learn the basics of Elm!
 -->
 
 ## まとめ
-`elm`コマンドでは様々なことができますが、全てを覚えようとする必要はありません。`elm --help`コマンドや`elm repl --help`コマンドを使うことで、いつでもこの章で紹介したコマンドの詳細情報を確認できます。
+O binário `elm` pode fazer um monte de coisas. Não se preocupe em lembrar de tudo. Você pode simplesmente executar o comando `elm --help` ou` elm repl --help` para obter um monte de informações sobre qualquer um desses comandos.
 
-次は、Elmの基本について学びましょう！
+Em seguida, vamos aprender o básico de Elm!
