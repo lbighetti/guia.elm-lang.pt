@@ -45,9 +45,9 @@
 -->
 * [Sobre esta Tradução](about_translation.md)
 * [Introdução](README.md)
-* [インストール](install.md)
+* [Instalação](install.md)
 * [Fundamentos da Linguagem](core_language.md)
-* [The Elm Architecture](architecture/README.md)
+* [A Arquitetura Elm](architecture/README.md)
    * [ボタン](architecture/buttons.md)
    * [テキストフィールド](architecture/text_fields.md)
    * [フォーム](architecture/forms.md)
