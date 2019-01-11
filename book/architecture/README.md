@@ -2,13 +2,13 @@
 # The Elm Architecture
 -->
 
-# The Elm Architecture 
+# Arquitetura Elm 
 
 <!--
 The Elm Architecture is a simple pattern for architecting webapps. It is great for modularity, code reuse, and testing. Ultimately, it makes it easy to create complex web apps that stay healthy as you refactor and add features.
 -->
 
-The Elm Architecture は、ウェブアプリケーションを構築するためのシンプルなパターンです。モジュール性やコードの再利用性、テストのしやすさなどに優れています。つまり、複雑なアプリケーションを作るときでも、安心してリファクタリングしたり機能を追加できるようにしてくれるのです。
+A Arquitetura Elm é um padrão simples para arquitetar aplicações web. É ótimo para modularização, reutilização de código, e teste. Fundamentalmente, ele facilita a criação de aplicações complexas que se mantem saudáveis quando refatoradas e quando novas funcionalidades são adicionadas.
 
 <!--
 This architecture seems to emerge naturally in Elm. Rather than someone “inventing” it, early Elm programmers kept discovering the same basic patterns in their code. Teams have found this particularly nice for onboarding new developers. Code just turns out well-architected. It is kind of spooky.
