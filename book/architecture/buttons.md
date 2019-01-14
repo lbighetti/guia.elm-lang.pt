@@ -72,7 +72,7 @@ Isso é tudo!
 <!--
 > **Note:** This section has `type` and `type alias` declarations. You can read all about these in the upcoming section on [types](/types/index.html). You do not *need* to deeply understand that stuff now, but you are free to jump ahead if it helps.
 -->
-> **Observação:** Esta seção contém declarações de `type` e `type alias`. Você pode ler tudo sobre elas na seção de [tipos](/types/index.html). Você não *precisa* entender essas coisas com profundidade no momento, mas sinta-se livre para dar uma pulo nesta seção se você achar que vai te ajudar.
+> **Observação:** Esta seção contém declarações de `type` e `type alias`. Você pode ler tudo sobre elas na seção de [tipos](/types/index.html). Você não *precisa* entender essas coisas a fundo no momento, mas sinta-se livre para dar uma pulo nesta seção se você achar que vai te ajudar.
 
 <!--
 When writing this program from scratch, I always start by taking a guess at the model. To make a counter, we at least need to keep track of a number that is going up and down. So let's just start with that!
