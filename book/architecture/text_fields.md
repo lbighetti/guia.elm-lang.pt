@@ -177,7 +177,7 @@ Change : String -> Msg
 <!--
 This function is used to tag whatever is currently in the text field. So let's say the text field currently holds `glad` and the user types `e`. This triggers an `input` event, so we will get the message `Change "glade"` in our `update` function.
 -->
-Este função é usada para sinalizar qual o conteúdo atual da caixa de texto. Digamos que a caixa de texto atualmente contém `glad` e o usuário digitou `e`. Isso desencadeia um evento `input`, então o que receberam a mensagem `Change "glade"` na nossa função `update`.
+Esta função é usada para sinalizar qual o conteúdo atual da caixa de texto. Digamos que a caixa de texto atualmente contém `glad` e o usuário digitou `e`. Isso desencadeia um evento `input`, então receberemos a mensagem `Change "glade"` na nossa função `update`.
 
 <!--
 So now we have a simple text field that can reverse user input. Neat! Now on to putting a bunch of text fields together into a more traditional form.
