@@ -161,7 +161,7 @@ Esse padrão é a essencia da Arquitetura Elm. Todos os exemplos qu veremos daqu
 >
 > See if you can implement the "reset" feature!
 -->
-> **Exercício:** Uma coisa legal da Arquitetura Elm é que é super fácil de extender quando os requisitos do produto mudam. Digamos que nosso gerente de produto inventou uma funcionalidade _incrível_ de zera o contador. Um novo botão que redefine o valor do contador para zero.
+> **Exercício:** Uma coisa legal da Arquitetura Elm é que é super fácil de estender quando os requisitos do produto mudam. Digamos que nosso gerente de produto inventou uma funcionalidade _incrível_ de zerar o contador. Um novo botão que redefine o valor do contador para zero.
 >
 > Para adicionar esta funcionalidade voltamos ao tipo `Msg` e adicionamos outra possibilidade: `Reset`. Vamos então para a função `update` e descrevemos o que acontece quando recebemos essa mensagem. Finalmente, adicionamos o botão na nossa view.
 >
