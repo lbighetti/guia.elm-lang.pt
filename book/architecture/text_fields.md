@@ -142,7 +142,7 @@ Quando recebermos um novo conteúdo, usamos a sintaxe de atualizar registro para
 <!--
 Finally we need to say how to view our application:
 -->
-Por fim, preciamos definiar a `view` para visualizarmos nossa aplicação:
+Por fim, precisamos definir a `view` para visualizarmos nossa aplicação:
 
 
 ```elm
