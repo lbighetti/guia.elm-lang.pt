@@ -11,7 +11,7 @@
 
 -->
 ---
-#### [Clone o código](https://github.com/evancz/elm-architecture-tutorial/) ou siga pelo [editor online](https://ellie-app.com/37gVmD7Tm9Ma1).
+#### [Clone o repositório](https://github.com/evancz/elm-architecture-tutorial/) ou siga pelo [editor online](https://ellie-app.com/37gVmD7Tm9Ma1).
 ---
 
 <!--
