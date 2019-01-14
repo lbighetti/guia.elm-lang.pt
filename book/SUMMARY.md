@@ -48,7 +48,7 @@
 * [Instalação](install.md)
 * [Fundamentos da Linguagem](core_language.md)
 * [A Arquitetura Elm](architecture/README.md)
-   * [ボタン](architecture/buttons.md)
+   * [Botões](architecture/buttons.md)
    * [Caixa de Texto](architecture/text_fields.md)
    * [フォーム](architecture/forms.md)
 * [型](types/README.md)
