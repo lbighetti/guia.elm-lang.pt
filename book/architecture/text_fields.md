@@ -102,7 +102,7 @@ type alias Model =
 <!--
 This time I chose to represent the model as a record. (You can read more about records [here](https://guide.elm-lang.org/core_language.html#records) and [here](https://elm-lang.org/docs/records).) For now, the record stores the user input in the `content` field.
 -->
-Deste vez escolhemos representar o modelo como um _registro_. (Você pode ler mais sobre registros [aqui](https://guia.elm-lang.pt/core_language.html#records) and [aqui](https://elm-lang.org/docs/records).) Por enquanto, o registro contém apenas o texto digitado no campo `content`.
+Desta vez escolhemos representar o modelo como um _registro_. (Você pode ler mais sobre registros [aqui](https://guia.elm-lang.pt/core_language.html#records) e [aqui](https://elm-lang.org/docs/records).) Por enquanto, o registro contém apenas o texto digitado no campo `content`.
 
 <!--
 > **Note:** You may be wondering, why bother having a record if it only holds one entry? Couldn't you just use the string directly? Sure! But starting with a record makes it easy to add more fields as our app gets more complicated. When the time comes where we want *two* text inputs, we will have to do much less fiddling around.
