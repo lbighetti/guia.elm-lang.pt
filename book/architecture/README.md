@@ -56,7 +56,7 @@ A lógica de todo programa Elm se dividirá em três partes separadas:
 This pattern is so reliable that I always start with the following skeleton and fill in details for my particular case.
 -->
 
-Esse padrão é tão confiável que sempre começo com o seguinte esqueleto e preencho detalhes para o meu caso particular.
+Esse padrão é bem confiável que podemos sempre começar com o seguinte esqueleto e preencher depois detalhes para o nosso caso particular.
 
 ```elm
 import Html exposing (..)
