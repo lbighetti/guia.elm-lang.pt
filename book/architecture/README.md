@@ -122,7 +122,7 @@ Sua aplicação web precisará lidar com a entrada do usuário. Esta seção ir�
 We will go through a few examples that build knowledge gradually, so go in order!
 -->
 
-Iremos ver alguns exemplos para construir conhecimento gradualmente, então vá em frente!
+Iremos ver alguns exemplos para construir conhecimento gradualmente, então vá na sequência!
 
 
 <!--
