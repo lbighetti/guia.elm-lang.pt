@@ -20,7 +20,7 @@ Esta arquitetura parece emergir naturalmente em Elm. Em vez de alguém “invent
 So The Elm Architecture is *easy* in Elm, but it is useful in any front-end project. In fact, projects like Redux have been inspired by The Elm Architecture, so you may have already seen derivatives of this pattern. Point is, even if you ultimately cannot use Elm at work yet, you will get a lot out of using Elm and internalizing this pattern.
 -->
 
-Então, A Arquitetura Elm é *fácil* em Elm, mas é útil em qualquer projeto de front-end. Na verdade, projetos como o Redux foram inspirados na Arquitetura Elm, então você já deve ter visto derivados desse padrão. O ponto é que, mesmo que você ainda não possa usar Elm no trabalho, você se beneficiará muito por utilizar Elm e internalizar esse padrão.
+Então, A Arquitetura Elm é *fácil* em Elm, mas é útil em qualquer projeto de front-end. Na verdade, projetos como o Redux foram inspirados pela Arquitetura Elm, então você já deve ter visto derivados desse padrão. O ponto é que, mesmo que você ainda não possa usar Elm no trabalho, você se beneficiará muito por utilizar Elm e internalizar esse padrão.
 
 [Elm]: https://elm-lang.org/
 [TodoMVC]: https://github.com/evancz/elm-todomvc
