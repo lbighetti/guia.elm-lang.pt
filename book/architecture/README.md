@@ -14,7 +14,7 @@ A Arquitetura Elm é um padrão simples para arquitetar aplicações web. É ót
 This architecture seems to emerge naturally in Elm. Rather than someone “inventing” it, early Elm programmers kept discovering the same basic patterns in their code. Teams have found this particularly nice for onboarding new developers. Code just turns out well-architected. It is kind of spooky.
 -->
 
-Esta arquitetura parece emergir naturalmente em Elm. Em vez de alguém “inventá-la”, os programadores Elm continuam explorando os mesmos padrões básicos em seu código. As equipes acham isso particularmente interessante para integrar novos desenvolvedores. O código acaba bem arquitetado. É meio assustador.
+Esta arquitetura parece emergir naturalmente em Elm. Em vez de alguém “inventá-la”, os programadores Elm acabaram descobrindo os mesmos padrões básicos em seu código. As equipes acharam isso particularmente interessante para integrar novos(as) desenvolvedores(as). O código acaba bem arquitetado. É até meio assustador.
 
 <!--
 So The Elm Architecture is *easy* in Elm, but it is useful in any front-end project. In fact, projects like Redux have been inspired by The Elm Architecture, so you may have already seen derivatives of this pattern. Point is, even if you ultimately cannot use Elm at work yet, you will get a lot out of using Elm and internalizing this pattern.
