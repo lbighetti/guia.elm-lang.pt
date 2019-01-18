@@ -8,7 +8,7 @@
 One of Elm's major benefits is that **users do not see runtime errors in practice**. This is possible because the Elm compiler can analyze your source code very quickly to see how values flow through your program. If a value can ever be used in an invalid way, the compiler tells you about it with a friendly error message. This is called _type inference_. The compiler figures out what _type_ of values flow in and out of all your functions.
 -->
 
-Um dos maiores benefícios do Elm é o fato de **na prática usuários não verem erros m tempo de execução**. isso é possível pois o compilador Elm pode analizar seu código muito rapidamente para verificar como os valores transitam pelo seu programa. Se existe a possibilidade de um valor ser usado de uma forma inválida, o compilador te avisa sobre isso com uma mensagem de erro amigável. Isso é chamado _inferência de tipo_. O compilador deduz qual _tipo_ de valores fluem para dentro e para fora de todas as suas funções.
+Um dos maiores benefícios do Elm é o fato de **os usuários, na prática, não verem erros em tempo de execução**. Isso é possível pois o compilador Elm pode analizar seu código muito rapidamente para verificar como os valores transitam pelo seu programa. Se existe a possibilidade de um valor ser usado de uma forma inválida, o compilador te avisa sobre isso com uma mensagem de erro amigável. Isso é chamado _inferência de tipos_. O compilador deduz qual _tipo_ de valores flui para dentro e para fora de todas as suas funções.
 
 <!--
 ## An Example of Type Inference
@@ -20,7 +20,7 @@ Um dos maiores benefícios do Elm é o fato de **na prática usuários não vere
 The following code defines a `toFullName` function which extracts a person’s full name as a string:
 -->
 
-O código abaixo define uma função `toFullName` que extrai como string o nome completo de uma pessoa:
+O código abaixo define uma função `toFullName` que extrai, como uma string, o nome completo de uma pessoa:
 
 ```elm
 toFullName person =
@@ -76,7 +76,7 @@ Ele vê que `toFullName` está recebendo o _tipo_ errado de argumento. Como a di
 It is great to have an assistant for simple mistakes like this, but it is even more valuable when you have hundreds of files and a bunch of collaborators making changes. No matter how big and complex things get, the Elm compiler checks that _everything_ fits together properly just based on the source code.
 -->
 
-É ótimo ter um assitente para erros simples como esse, mas ele'é ainda mais valioso quando você tem centenas de arquivos e diversos colaboradores fazendo mudanças. Nao importa o quão grandes e complexas as coisas fiquem, o compilador Elm garante que _tudo_ se encaixe adequadamente baseando-se apenas no código fonte.
+É ótimo ter um assitente para erros simples como esse, mas ele é ainda mais valioso quando você tem centenas de arquivos e diversos colaboradores fazendo mudanças. Nao importa o quão grandes e complexas as coisas fiquem, o compilador Elm garante que _tudo_ se encaixe adequadamente baseando-se apenas no código fonte.
 
 <!--
 The better you understand types, the more the compiler feels like a friendly assistant. So let's start learning more!
