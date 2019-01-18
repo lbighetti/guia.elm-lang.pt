@@ -76,7 +76,7 @@ Ele vê que `toFullName` está recebendo o _tipo_ errado de argumento. Como a di
 It is great to have an assistant for simple mistakes like this, but it is even more valuable when you have hundreds of files and a bunch of collaborators making changes. No matter how big and complex things get, the Elm compiler checks that _everything_ fits together properly just based on the source code.
 -->
 
-É ótimo ter um assitente para erros simples como esse, mas ele é ainda mais valioso quando você tem centenas de arquivos e diversos colaboradores fazendo mudanças. Nao importa o quão grandes e complexas as coisas fiquem, o compilador Elm garante que _tudo_ se encaixe adequadamente baseando-se apenas no código fonte.
+É ótimo ter um assistente para erros simples como esse, mas ele é ainda mais valioso quando você tem centenas de arquivos e diversos colaboradores fazendo mudanças. Não importa o quão grandes e complexas as coisas fiquem, o compilador Elm garante que _tudo_ se encaixe adequadamente baseando-se apenas no código fonte.
 
 <!--
 The better you understand types, the more the compiler feels like a friendly assistant. So let's start learning more!
