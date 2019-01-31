@@ -17,7 +17,7 @@ type User
 <!--
 Regulars have a name and age, whereas visitors only have a name. So we have our custom type, but how do we actually use it?
 -->
-Usuários regulares tem nome e idade, enquanto visitantes tem apenas o nome. Então nós temos o nosso tipo personalizado, mas como nós realmente o usamos?
+Usuários regulares tem nome e idade, enquanto visitantes têm apenas o nome. Então nós temos o nosso tipo personalizado, mas como nós realmente o usamos?
 
 <!--
 ## `case`
