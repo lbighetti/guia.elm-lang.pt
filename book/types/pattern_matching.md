@@ -1,13 +1,12 @@
 <!--
 # Pattern Matching
 -->
-# パターンマッチ
+# Pattern Matching
 
 <!--
 On the previous page, we learned how to create [custom types](/types/custom_types.html) with the `type` keyword. Our primary example was a `User` in a chat room:
 -->
-前のページで、`type` キーワードを用いた[カスタム型](/types/custom_types.html)の書き方について学びました。
-主要な例としてチャットルームの `User` 型を定義しました:
+Na página anterior, nós aprendemos como criar [tipos personalizados](/types/custom_types.html) com a palavra-chave `type`. Nosso primeiro exemplo era um `Usuário` numa sala de bate papo.
 
 ```elm
 type User
@@ -18,9 +17,7 @@ type User
 <!--
 Regulars have a name and age, whereas visitors only have a name. So we have our custom type, but how do we actually use it?
 -->
-
-`Regular` ユーザーは名前と年齢を持っているのに対し、`Visitor` ユーザーは名前だけを持っているのでした。
-このようにカスタム型の作り方は分かりましたが、実際にはどのように使えば良いのでしょうか？
+Usuários regulares tem nome e idade, enquanto visitantes têm apenas o nome. Então nós temos o nosso tipo personalizado, mas como nós realmente o usamos?
 
 <!--
 ## `case`
@@ -30,8 +27,7 @@ Regulars have a name and age, whereas visitors only have a name. So we have our 
 <!--
 Say we want a `toName` function that decides on a name to show for each `User`. We need to use a `case` expression:
 -->
-各 `User` から表示する名前を返す関数 `toName` を定義したいとします。
-`case` 式を使う必要があるでしょう:
+Digamos que queremos escrever uma função `toName` que decide sobre o nome a exibir para cada `User`. Nós precisaremos usar uma expressão `case`:
 
 ```elm
 toName : User -> String
@@ -46,19 +42,23 @@ toName user =
 -- toName (Visitor "kate95")    == "kate95"
 ```
 
+<!--
 The `case` expression allows us to branch based on which variant we happen to see, so whether we see Thomas or Kate, we always know how to show their name.
-<!-- TODO -->
+-->
+A expressão `case` nos permite decidir o caminho a tomar com base na variante com a qual nos depararmos, então, quer recebamos Thomas ou Kate, nós sempre sabemos como exibir seus nomes.
 
 <!--
 And if we try invalid arguments like `toName (Visitar "kate95")` or `toName Anonymous`, the compiler tells us about it immediately. This means many simple mistakes can be fixed in seconds, rather than making it to users and costing a lot more time overall.
 -->
-そしてもし、`toName (Visitar "kate95")`　や `toName Anonymous`  のような不正な引数を与えた場合には、コンパイラがそのことについてすぐに教えてくれるでしょう。
-つまり、多くの単純なミスは、あまり時間をかけなくても、数秒で修正できるでしょう。
+E se tentarmos argumentos inválidos como `toName (Visitar "kate95")` ou `toName Anonymous`, o compilador nos contará sobre isso imediatamente. Isso significa que enganos simples podem ser corrigidos em segundos, ao invés de atingir os usuários e custar muito mais tempo no geral.
 
 ## Wild Cards
 
+<!--
 The `toName` function we just defined works great, but notice that the `age` is not used in the implementation? When some of the associated data is unused, it is common to use a “wild card” instead of giving it a name:
-<!-- TODO -->
+-->
+A função `toName` que nós acabamos de definir funciona muito bem, mas você percebeu que `age` não é usado na implementação? Quando qualquer dado associado não é utilizado, é comum que se use um `wild card` ao invés de dar a ele um nome.
+/
 
 ```elm
 toName : User -> String
@@ -71,6 +71,7 @@ toName user =
       name
 ```
 
+<!--
 The `_` acknowledges the data there, but also saying explicitly that nobody is using it.
-
-<!-- TODO -->
+-->
+O `_` reconhece o dado ali contido, mas também diz explicitamente que ninguém o está usando.
